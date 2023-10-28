@@ -18,6 +18,9 @@
       ];
       shellHook = ''
         echo "Welcome in $name"
+        alias push="git push origin main"
+        alias commit="git commit -m"
+        alias compile="npx tsc src/main.ts --outFile out/index.js"
       '';
     };
   };
