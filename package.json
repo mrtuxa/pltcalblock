@@ -1,0 +1,17 @@
+{
+  "name": "pltcalblock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mrtuxa",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "tsx": "^3.14.0"
+  },
+  "scripts": {
+    "build": "npx tsc src/main.ts --outFile out/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
